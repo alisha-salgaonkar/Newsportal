@@ -1,0 +1,107 @@
+	
+			@font-face {
+				font-family: tamilFont1;
+				src:url("<?php echo base_url(); ?>fonts/hindi.ttf");
+			}
+			@font-face {
+				font-family: tamilFont2;
+				src:url("<?php echo base_url(); ?>fonts/hindi.ttf");
+			}
+		
+
+
+.screen-pad{
+padding-left:18px;
+padding-right:18px;
+}
+ 
+.divide{
+
+    display: block;
+    width: 100%;
+    height: 0px;
+    margin: 8px 0;
+    border-top: 1px dotted #D6D6D6;
+    clear: both;
+}
+
+
+
+div{
+b0order:1px solid black;
+
+}
+body {
+
+
+}
+.imagediv{
+float:right;
+width:60em;
+height:18em;
+border: 0px;
+margin-right:5em;
+}
+#container{
+background-image:url('1.jpg');
+margin-left:auto;
+margin-right:auto;
+width:80%;
+height:auto;
+}
+.backgroundimage{
+background-image:url('1.jpg');
+}
+.container{
+
+margin-left:auto;
+margin-right:auto;
+width:auto;
+height:auto;
+backgraound-color:#CCFFCC;
+
+}
+.navs{
+float:left;
+height:50px;
+width:217px;
+}
+
+#titlebar{
+width:100%;
+height:100px;
+}
+#navbar{
+
+width:100%;
+height:50px;
+}
+
+#divisions{
+width:100%;
+height:600px;
+}
+
+.news{
+width:100%;
+height:150px;
+}
+
+.multimedia{
+height:200px;
+width:200px;
+}
+
+.mname{
+color:blue;
+}
+
+div.images,div.videos{
+   height:200px;
+   width:200px;
+   float:left;
+}	
+
+div.videosClear,div.imagesClear{
+   clear:both;
+}	

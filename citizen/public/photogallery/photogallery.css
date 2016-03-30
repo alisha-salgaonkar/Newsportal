@@ -1,0 +1,49 @@
+.wrapper{
+width:100%;
+background-color:#003366;
+}
+
+#logo{
+width:120px;
+height:100px;
+padding:1em;
+}
+
+#headermessage{
+margin-top:3em;
+}
+.innercontent{
+width:100%;
+}
+
+.breadcrumb a{
+text-decoration:none;
+}
+.breadcrumb	 a:hover{
+background-color:#0066CC;
+
+}
+
+.img1:hover{
+border:2px solid orange;
+max-height:200px !important;
+}
+
+@media screen and (min-width: 768px) {
+#headermessage{
+margin-top:1em;
+float:right!important;
+width:80%;
+}
+.img1:hover{
+border:2px solid orange;
+max-height:200px !important;
+}
+
+#logo{
+width:250px;
+height:120px;
+padding:1em;
+}
+	
+}

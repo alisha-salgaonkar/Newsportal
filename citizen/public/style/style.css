@@ -1,0 +1,375 @@
+.container{ margin-bottom:0px;}
+.wrapper{
+width:100%;
+}
+.headermessage{
+margin-top:3em;
+}
+.header{
+ width:90%;
+ height:15vh;
+ margin-left:2em;
+ border:1px solid black;
+ }
+ 
+.socialbuttons{
+width:20em;
+height:6em;
+border: 1px solid black;
+float:right;
+}
+
+.contentholder{
+width:90%;
+margin-top:2em;
+margin-left:1.5em;
+background-color:#F0F0F5;
+
+}
+
+#searchContainer{
+    display:inline-block;
+   
+   margin-left: 1.5em;
+    height:8em;
+    width:25em;
+    padding-left: 1em;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+#contact{
+    margin:0px;
+    padding:0px;
+    background-color: #3399FF;
+    border: none;
+}
+.nomination{
+width:20em;
+float:left;
+}
+.navbars{
+margin-bottom:0px;
+}
+
+.carousel-caption p{
+    font-family: timesNewRoman;
+    font-size: 20px;
+}
+.nav-tabs {
+    text-align:center;
+}
+
+.nav li a{
+    padding-left: 40px;
+    color:white;
+   
+}
+
+.nav li a:hover{
+    
+    color:blue;
+    font-weight: bold;
+   
+}
+#logocontainer{
+position:relative;
+float:left;
+}
+#logo{
+width:120px;
+height:100px;
+padding:1em;
+}
+
+a.carousel-control{
+height: 220px;}
+
+#myCarousel{border:4px solid white;
+height:190px;
+overflow:hidden;}
+
+#topbutton{
+width:13em;
+height:2em;
+margin-top:10px;
+margin-left:1em;
+font-size:1.5em;
+color:black;
+background-color:#FFBE0B;
+}
+
+#btn2{
+
+
+color:black;
+background-color:#FFBE0B;
+}
+
+#con p{
+    margin-left: 2em;
+}
+#topbutton:hover{
+background-color:blue;
+color:white;
+}
+
+#btn2:hover{
+background-color:blue;
+color:white;
+}
+.bottom{
+height:80em;
+width:100%;
+
+}
+ #act {
+       height:40em;
+    }
+
+.activity{
+ background-color:white;
+ margin-top:2em;
+ height:auto; 
+ width:80%;
+margin-left:3em;
+border:1px solid #F0F0F5;
+ }
+ 
+ td{
+ font-size:0.8em;
+ }
+ 
+ #con{
+	height:38em ;
+	}
+        
+        #con p{
+            margin-left: 3em;
+        }       
+.image-viewer{
+width:60%;
+height:25%;
+border:1px solid black;
+float:left;
+}
+.image-container{
+border:1px solid black;
+ width:22em;
+ height:12em;
+
+ }
+ .pageheader{
+ height:5em;
+ width:100%;
+ background-color:#3A86FF;
+ margin-top:1em;
+ text-align:center;
+ font-size:1em;
+ padding-top:1em;
+ color:white;
+ }
+ #tb1{
+     margin-left: 3.5em;
+ }
+.html-marquee {
+font-size:2em;
+color:white;
+background-color:#3A86FF;
+font-family:serif;
+}
+.site-footer{
+width:100%;
+background: url('t2.jpg')  bottom no-repeat;
+background-color:black;
+clear:both;
+color:white;
+margin-top:5em;
+padding:2em;
+z-index:1;
+}
+
+.bottom-footer{
+border-top:1px solid white;
+padding-top:2em;
+}
+
+.bottom-footer p{
+margin-left:8.5em;
+font-size:1em;
+}
+
+.footer-nav{
+text-align:center;
+list-style:none;
+}
+
+.footer-nav  li  a{
+
+text-decoration:none;
+font-size:1em;
+
+} 
+
+
+.footer-nav  li  a:hover{
+color:white;
+}
+
+
+#news{
+margin-top:30em;
+
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .header  h2{
+       font-size:2em !important;
+    }
+	.navbar-nav{
+padding-left:10em;
+}
+
+#con p{
+            margin-left: 5em;
+        }  
+.headermessage{
+margin-left:18em;
+margin-top:1em;
+display:block;
+}
+	
+}
+
+@media screen and (min-width: 768px) {
+    .pageheader  {
+       font-size:1.5em !important;
+	   height:3em !important;
+    }
+	.site-footer{
+	margin-top:10em;
+	}
+        .bottom{
+            height:60em;
+        }
+        
+       
+        .img1{
+    width:100%; height:250px !important;
+}
+#searchContainer{
+   float:right;
+   
+   margin-right: 3.5em;
+}
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .activity {
+       margin-left:8em;
+    }
+	.bottom-footer p{
+margin-left:10em;
+
+#topbutton{
+
+margin-left:5em !important;
+}
+
+
+}
+
+#p1{
+    margin-left: 3em !important;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+    #act {
+       height:35em;
+    }
+	#con{
+	height:30em  !important;
+	}
+       
+	#myCarousel{
+        height:250px !important;
+        border:4px solid white;
+    }
+    #btn1{
+        width:100%;
+        margin-left: 2em;
+        padding: 2em;
+       
+    }
+    
+    
+    #btncontainer{
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-6 img {
+       width:100% !important;
+    }
+	
+.footer-nav  li{
+padding: 0px 5em;
+} 
+#logo{
+width:250px;
+height:120px;
+padding:1em;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+    #kk {
+       width:70% !important;
+	   margin-left:8em;
+	   margin-top:-7em;
+    }
+	#news{
+margin-top:30em;
+}
+}
+@media screen and (min-width: 768px) {
+    .contentholder {
+       margin-left:3em;
+    }
+	.pageheader{
+	 height:4.0em;
+	 width:90%;
+	 background-color:#3A86FF;
+	 margin-left:1.5em;
+	 margin-top:1em;
+	 text-align:center;
+	 font-size:1em;
+	 padding-top:1em;
+	 color:white;
+ }
+}
+
+@media screen and (min-width: 768px) {
+    #tb1 {
+       width:22% !important;
+	   margin-left:4em;
+    }
+.bottom-footer p{
+    margin-left:12em;
+    font-size:1em;
+}
+#content1{
+    height:40%;
+}
+}
